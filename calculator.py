@@ -11,9 +11,9 @@ def div(a,b):
     print(a/b)
 while(True):
     print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
+    c=int(input("Enter your choice:"))
     a=int(input("Enter a value:"))
     b=int(input("Enter b value:"))
-    c=int(input("Enter your choice:"))
     if(c==1):
         add(a,b)
     elif(c==2):
